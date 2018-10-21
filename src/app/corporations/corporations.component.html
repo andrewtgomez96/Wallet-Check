@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+       <script>
+           const ftmAPI = require("./ftmAPI");
+           var arrDonations = ftmAPI.main();
+           function getDonation(int i){
+               return arrDonations[i];
+           }
+       </script>
+   </head>
+<body>
+
+  <div style="font-family: 'Oswald', sans-serif; background-color: #FBB03B; color: #fff; height: 70px; width:100%;">
+    <h1 style="margin-left: 45px;font-size:50px;">where do these <span style="color:#777;">corporations </span>invest?</h1>
+  </div>
+
+<div>
+
+   <table>
+       <tr>
+           <th>Amazon</th>
+           <th></th>
+       </tr>
+       <tr>
+           <td>Other Super Pacs</td>
+           <th><script>getDonation(0);</script></th>
+       </tr>
+       <tr>
+           <td>Democratic Party</td>
+           <th><script>getDonation(1);</script></th>
+       </tr>
+           <td>Republican Party</td>
+           <th><script>getDonation(2);</script></th>
+       <tr>
+           <td>Lobbyists</td>
+           <th><script>getDonation(3);</script></th>
+       </tr>
+   </table>
+</div>
+
+</body>
+</html>
