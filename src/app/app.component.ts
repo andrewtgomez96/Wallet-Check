@@ -8,9 +8,3 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 }
-export class HomeComponent {
-  title = 'home';
-}
-export class CorporationsComponent {
-  title = 'home';
-}
