@@ -8,3 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 }
+export class NavbarComponent {
+  title = 'navbar';
+}
+export class CarouselComponent {
+  title = 'navbar';
+}
+export class GalleryComponent {
+  title = 'navbar';
+}
