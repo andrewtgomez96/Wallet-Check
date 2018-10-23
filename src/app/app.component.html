@@ -14,16 +14,42 @@
     <!-- NAVBAR-->
     <nav class="fill">
         <ul>
-            <li style="float: left;"><a href="#"><img src="assets/images/wallet-check.png"
+            <li style="float: left;"><a href="#home"><img src="assets/images/wallet-check.png"
                 style="width:260px; height: 48px;"></a></li>
-            <li><a href="app.component.html#corporations">corporations</a></li>
-            <li><a href="#">causes</a></li>
-            <li><a href="#">vote</a></li>
+            <li><a href="#corps">corporations</a></li>
+            <li><a href="#causes">causes</a></li>
+            <li><a href="https://vote.gov/"target="_blank">vote</a></li>
         </ul>
     </nav>
-    <a href="#home"></a>
+    <p id="home"></p>
     <app-home></app-home>
-    <a href="#corporations"></a>
+    <p id="corps"></p>
     <app-corporations></app-corporations>
+    <p id="causes"></p>
+    <div style="font-family: 'Oswald', sans-serif; background-color: #FBB03B; color: #fff; height: 70px; width:100%;">
+      <h1 style="margin-left: 45px;font-size:50px;">which corporations support your <span style="color:#777;">causes </span>?</h1>
+    </div>
+    <br />
+    <table style="font-size: 18px; color:#777; width: 60%; text-align: left;">
+        <tr style="font-size: 20px;">
+            <th>Cause</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Black Lives Matter</td>
+            <th style="color: #FBB03B;">company name</th>
+        </tr>
+        <tr>
+            <td>Women's Rights</td>
+            <th style="color: #FBB03B;">company name</th>
+        </tr>
+            <td>Climate Change</td>
+            <th style="color: #FBB03B;">company name</th>
+        <tr>
+            <td>LBTQ Marriage</td>
+            <th style="color: #FBB03B;">company name</th>
+        </tr>
+    </table>
+    <br /><br /><br /><br /><br /><br />
 </body>
 </html>
